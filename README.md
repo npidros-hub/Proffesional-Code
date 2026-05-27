@@ -1,62 +1,23 @@
-# Proffesional Code
-maybe you dont know why you still junior/middle, so this documentation was created for bad people in coding.
-to understand about what im talking, you need to know:
+# Professional Code
 
-- your language basics
-- how to work with libs
-- how to code average program
+How to write good code and design your projects properly.
 
-you dont need to know million of combinations, just some good libs (~15 libs normally) and how to think like senior
-if you really want to think and like senior having low status i got some tips for you:
+### 1. Variable Naming
+Do not use single-letter variables like x or y. It makes the code impossible to read later. Always use clear names so anyone can understand what the variable does.
+* Bad: `x = 5; y = 10;`
+* Good: `fiveVar = 5; characterName = "Bob";`
 
-- store variables with good names
-if you coding big project like that:
-```csharp
-  x = 5;
-  y = 5+5/5*5;
-  n = "bob";
-```
-you will never get a job in your life. better write:
-```csharp
-  fiveVar = 5;
-  mathVar = 10;
-  characterName = "Bob";
-```
-need this to know every thing what you writed, use comments too if you want
-because if you just use x, y, z you will die in a week trying to read what you just coded
+### 2. Keep Functions Small
+Do not make one huge function that does everything at once (like handling math, UI, and settings together). Split your code into small, simple functions where each one does only one job.
 
-tips for small devs:
+### 3. Testing and Security
+Never assume your code is perfect. Always test your application by trying to break it or find bugs, just like a hacker would. Once you find a problem, fix it before finishing the project.
 
-- **if you got a really big project always license your code**
-  
-to save protect your program from reversers or reports.
-only 30 mins or 2 years of trying to say this was your code and someone copied it.
+### 4. Smart Comments
+Do not write useless comments that just repeat what the code says. For example, `int x = 5; // creating x` is bad. Use comments only to explain why you wrote the code a certain way.
 
-- **dont create functions/methods for everything**
-  
-if all your code works on only 1 function - delete your code (joking)
-like if your func has 40 args, works with math, works with ui, works with browser, works with pc
+### 5. Code Size
+Do not write 500 lines of code if you can do the same job in 50 lines. Keep your code medium-sized, clean, and easy to fix.
 
-you got bad code, better make code with alot of small but good functions, every function is like small of your heart and you're collecting it fully one by one in details
-
-- **check your code**
-  
-junior thinks he got really good code when its bad, even if chance program to crash is 0.5%.
-
-senior knows that if program can crash = program will crash. use checks to save it (if/else/elseif)
-
-when its time to test your code = think like hacker. find vulns to crash it and access to your own system. after fix it
-
-- **know how to use comments**
-
-if you need to create a documentation for your code = dont comment eazy things
-```csharp
-int x = 5; //creating integer with name 'x' and initializating value five to them, after ending line by writing ';' symbol
-```
-everyone knows it, if this is true why you still doing that?
-
-- **cut your code**
-
-junior is like: yo i just writted program that contains 500 lines of code
-
-99% of seniors trying to get small code to fix bugs faster and eazier
+### 6. DRY Termin
+Learn more about DRY (Don't Repeat Yourself)
