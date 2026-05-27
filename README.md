@@ -21,3 +21,5 @@ Do not write 500 lines of code if you can do the same job in 50 lines. Keep your
 
 ### 6. DRY Termin
 Learn more about DRY (Don't Repeat Yourself)
+i hacked alot of projects by using this, also dont name functions like accessGranted, adminAllowed, download, loginAdmin
+even small part of seniors can retry this error
