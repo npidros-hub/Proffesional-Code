@@ -1,9 +1,9 @@
 # Professional Code
 
-How to write good code and design your projects properly.
+How to write **good** ```code``` and design your projects properly.
 
 ### 1. Variable Naming
-Do not use single-letter variables like x or y. It makes the code impossible to read later. Always use clear names so anyone can understand what the variable does.
+***Do not*** use single-letter variables like x or y. It makes the code impossible to read later. Always use clear names so anyone can understand what the variable does.
 * Bad: `x = 5; y = 10;`
 * Good: `fiveVar = 5; characterName = "Bob";`
 
@@ -11,7 +11,7 @@ Do not use single-letter variables like x or y. It makes the code impossible to 
 Do not make one huge function that does everything at once (like handling math, UI, and settings together). Split your code into small, simple functions where each one does only one job.
 
 ### 3. Testing and Security
-Never assume your code is perfect. Always test your application by trying to break it or find bugs, just like a hacker would. Once you find a problem, fix it before finishing the project.
+Never assume your code is *perfect*. Always test your application by trying to break it or find bugs, just like a hacker would. Once you find a problem, fix it before finishing the project.
 
 ### 4. Smart Comments
 Do not write useless comments that just repeat what the code says. For example, `int x = 5; // creating x` is bad. Use comments only to explain why you wrote the code a certain way.
